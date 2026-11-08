@@ -1,1 +1,1 @@
-# sequence-analysis-cli
+- **01_ncbi_edirect**: Downloaded protein (FASTA) and nucleotide (GenBank) records from NCBI using EDirect (esearch, efetch, elink, efilter) and Unix pipes, with scripts and a log of every query.# sequence-analysis-cli
