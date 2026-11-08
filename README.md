@@ -1,1 +1,9 @@
-- **01_ncbi_edirect**: Downloaded protein (FASTA) and nucleotide (GenBank) records from NCBI using EDirect (esearch, efetch, elink, efilter) and Unix pipes, with scripts and a log of every query.# sequence-analysis-cli
+# Sequence Analysis CLI
+
+Command-line sequence analysis workflows: get sequences from NCBI, search with BLAST, align them, and build phylogenetic trees.
+
+## Projects
+
+| Folder | What it does |
+| --- | --- |
+| `01_ncbi_edirect/` | Downloads protein (FASTA) and nucleotide (GenBank, FASTA) records from NCBI with EDirect (`esearch`, `efetch`, `elink`, `efilter`) and Unix pipes. Includes `scripts/get_sequences.sh` and `queries.md` listing every query. |

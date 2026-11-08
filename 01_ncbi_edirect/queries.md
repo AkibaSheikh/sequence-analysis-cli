@@ -6,4 +6,4 @@
 | nuccore | NM_000546 | gb | results/tp53.gb |
 | nuccore | NM_000546 | fasta | results/tp53.fasta |
 
-Note: the related-articles query (elink -related + efilter) hit temporary NCBI 502 errors; re-run later.
+Note: the related-articles query (elink -related and efilter) hit temporary NCBI 502 errors. Re-run it later.
