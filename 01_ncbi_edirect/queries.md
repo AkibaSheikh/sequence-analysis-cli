@@ -2,5 +2,8 @@
 
 | Database | Query | Format | Output |
 | --- | --- | --- | --- |
-| protein | insulin AND human[orgn] AND refseq[filter] | fasta | results/insulin.fasta |
+| protein | INS[Gene Name] AND Homo sapiens[Organism] AND refseq[filter] | fasta | results/insulin.fasta |
 | nuccore | NM_000546 | gb | results/tp53.gb |
+| nuccore | NM_000546 | fasta | results/tp53.fasta |
+
+Note: the related-articles query (elink -related + efilter) hit temporary NCBI 502 errors; re-run later.
