@@ -1,0 +1,12 @@
+Number of amino acids: 110
+Molecular weight (Da): 11980.79
+Theoretical pI: 5.22
+Instability index: 40.33 (>40 = unstable)
+GRAVY: 0.193 (positive = hydrophobic)
+Aromaticity: 0.082
+Helix/Turn/Sheet fractions: 0.38 0.25 0.36
+L 20 18.2%
+G 12 10.9%
+A 10 9.1%
+E 8 7.3%
+Q 7 6.4%
