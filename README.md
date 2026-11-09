@@ -1,3 +1,5 @@
+# Sequence Analysis CLI
+
 Command-line sequence analysis workflows: get sequences from NCBI, search with BLAST, align them, and build phylogenetic trees.
 
 ## Projects
