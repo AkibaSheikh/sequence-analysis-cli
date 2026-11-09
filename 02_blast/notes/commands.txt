@@ -1,0 +1,1 @@
+blastn -query query.fasta -db 16S_ribosomal_RNA -evalue 1e-5 -num_threads 4 -outfmt "6 ... stitle" -out results/hits.tsv
