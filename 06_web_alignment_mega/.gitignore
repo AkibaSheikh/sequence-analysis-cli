@@ -1,0 +1,8 @@
+results/*.ufboot
+results/*.splits.nex
+results/*.mldist
+results/*.bionj
+results/*.ckp.gz
+results/*.log
+results/*.model.gz
+results/*.uniqueseq.phy
