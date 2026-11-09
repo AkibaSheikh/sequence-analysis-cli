@@ -12,3 +12,4 @@ Command-line sequence analysis workflows: get sequences from NCBI, search with B
 | `02_blast/` | Find sequences similar to my query with BLAST. |
 | `03_clustal_omega/` | Align several sequences with Clustal Omega. |
 | `04_iqtree_phylogeny/` | Build a maximum-likelihood tree with IQ-TREE. |
+| `05_databases/` | Use GenBank, UniProt, PDB, PubChem, ProtParam and PSIPRED. |
