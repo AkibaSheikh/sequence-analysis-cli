@@ -1,0 +1,1 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
