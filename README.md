@@ -1,13 +1,9 @@
-# Sequence Analysis CLI
+# 06_web_alignment_mega
 
-Command-line sequence analysis workflows: get sequences from NCBI, search with BLAST, align them, and build phylogenetic trees.
-
-## Projects
-
-| Folder | What it does |
-| --- | --- |
-| `01_ncbi_edirect/` | Downloads protein (FASTA) and nucleotide (GenBank, FASTA) records from NCBI with EDirect (`esearch`, `efetch`, `elink`, `efilter`) and Unix pipes. Includes `scripts/get_sequences.sh` and `queries.md` listing every query. |
-| `02_blast/` | Find sequences similar to my query with BLAST. |
-| `03_clustal_omega/` | Align several sequences with Clustal Omega. |
-| `04_iqtree_phylogeny/` | Build a maximum-likelihood tree with IQ-TREE. |
-| `05_databases/` | Use GenBank, UniProt, PDB, PubChem, ProtParam and PSIPRED. |
+**Goal:** Align homologous proteins and build a tree.
+**Data:** 30 fungal tyrosinase protein sequences (query: UniProt Q0CRX0, Aspergillus terreus), selected by a UniProt annotation search (fungal tyrosinases).
+**What I did:** Aligned with Clustal Omega, built a maximum-likelihood tree with IQ-TREE 1.6.12 (ModelFinder, 1000 ultrafast bootstraps), midpoint-rooted.
+**Result:** Best model WAG+R4; log-likelihood -39023.3; tree length 26.8 (distant homologues). <N> branches with bootstrap 95 or more, <N> moderate (70-94), <N> weak (below 70). Figure: results/tree.png.
+**Files:** results/ (alignment, tree, figure), notes/ (workflow)
+**How to run:** see notes/workflow.md
+| `06_web_alignment_mega/` | Align fungal tyrosinases and build an ML tree. |
